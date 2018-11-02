@@ -1,0 +1,2 @@
+# filemanager
+Cordova plugin
