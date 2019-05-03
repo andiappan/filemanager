@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-filemanager",
+  "version": "0.1.0",
+  "description": "This is cordova plugin for share your wishes",
+  "cordova": {
+    "id": "cordova-plugin-filemanager",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/don/cordova-plugin-hello.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "hello",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Andiappan",
+  "license": "3i Infotech",
+  "bugs": {
+    "url": "https://github.com/don/cordova-plugin-hello/issues"
+  },
+  "homepage": "https://github.com/don/cordova-plugin-hello#readme"
+}
