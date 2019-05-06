@@ -1,0 +1,31 @@
+android {
+	packagingOptions {
+		pickFirst  'META-INF/license.txt'
+		exclude 'META-INF/DEPENDENCIES.txt'
+		exclude 'META-INF/LICENSE.txt'
+		exclude 'META-INF/NOTICE.txt'
+		exclude 'META-INF/NOTICE'
+		exclude 'META-INF/LICENSE'
+		exclude 'META-INF/DEPENDENCIES'
+		exclude 'META-INF/notice.txt'
+		exclude 'META-INF/license.txt'
+		exclude 'META-INF/dependencies.txt'
+		exclude 'META-INF/ASL2.0'
+		exclude 'META-INF/jersey-module-version'
+		exclude 'org/apache/http/nio/client/version.properties'
+		exclude 'org/apache/http/version.properties'
+		exclude 'org/apache/http/nio/version.properties'
+		exclude 'org/apache/http/entity/mime/version.properties'
+	}
+	dexOptions {
+		preDexLibraries = false
+		additionalParameters=['--core-library']
+	}
+	
+}
+
+dependencies {
+	compile files('libs/httpclient-4.3.1.jar')
+	compile files('libs/httpcore-4.3.1.jar')
+	compile files('libs/httpmime-4.3.1.jar')
+}
